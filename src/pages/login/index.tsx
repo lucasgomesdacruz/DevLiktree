@@ -2,15 +2,15 @@ import { Link, useNavigate } from "react-router-dom";
 import { Input } from '../../components/input'
 import { FormEvent, useState } from "react";
 
-import { auth } from '../../services/firebaseConnection' //Comunicação com o sistema de informações
+import { auth } from '../../services/firebaseConnection' 
 import { signInWithEmailAndPassword } from "firebase/auth";
 
 export function Login() {
-    const [email, setEmail] = useState("");//Peganod valores de email
-    const [password, setPassword] = useState("");//pegando valores de senha
-    const navigate = useNavigate(); //Navegação de paginas
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const navigate = useNavigate(); 
 
-    function handleSubmit(e: FormEvent) { ///função de enviar valores
+    function handleSubmit(e: FormEvent) { 
         e.preventDefault();
         if(email === '' || password === '') {
             alert("Preencha todos os campos...")
@@ -33,7 +33,7 @@ export function Login() {
         <div className="flex w-full h-screen items-center justify-center flex-col">
             <Link to="/">
                 <h1 className="mt-11 text-white mb-7 font-bold text-5xl">Dev
-                    <span className="bg-gradient-to-r from-yellow-500 to-orange-400 bg-clip-text text-transparent">Link</span>
+                    <span className="bg-gradient-to-r from-blue-600 to-blue-950 bg-clip-text text-transparent">Link</span>
                 </h1>
             </Link>
 
