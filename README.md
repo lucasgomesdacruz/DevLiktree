@@ -34,6 +34,17 @@ TypeScript: Linguagem de programação que adiciona tipagem estática ao JavaScr
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
 
 
+# Customização de Links
+
+![image](https://github.com/lucasgomesdacruz/DevLinktree/assets/112510742/bdb031e2-652e-4c4c-b0ca-9169ab35e601)
+
+
+# Seção de Links para redes sociais 
+
+![image](https://github.com/lucasgomesdacruz/DevLinktree/assets/112510742/467a190a-ca4c-4238-bce1-760b21361392)
+
+
+
 # Teste você em Produção 
 ## Conta teste
 ![image](https://github.com/lucasgomesdacruz/DevLinktree/assets/112510742/42b826b7-e9ad-4ef7-9544-79bb848c4fb0)
