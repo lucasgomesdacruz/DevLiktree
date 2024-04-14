@@ -1,5 +1,7 @@
 # Projeto Linktree com React
-![image](https://github.com/lucasgomesdacruz/DevLinktree/assets/112510742/19733bda-829a-4c53-8bc3-6679eaf2ba03)
+![image](https://github.com/lucasgomesdacruz/DevLinktree/assets/112510742/a5da634d-4472-4b62-b2ef-e53c71ddce9e)
+
+
 
 ## 🔥 introdução
 Este é um projeto que visa criar um sistema semelhante ao Linktree, onde os usuários podem centralizar todos os seus links importantes em uma única página. O projeto utiliza React para a construção da interface do usuário, React Router DOM para gerenciar as rotas da aplicação, Tailwind CSS para estilização, e Firebase como banco de dados para armazenar os links e informações de autenticação.
@@ -33,6 +35,7 @@ TypeScript: Linguagem de programação que adiciona tipagem estática ao JavaScr
 
 
 ## Conta teste
+![image](https://github.com/lucasgomesdacruz/DevLinktree/assets/112510742/42b826b7-e9ad-4ef7-9544-79bb848c4fb0)
 
 **Link para Login - [Login](https://dev-liktree.vercel.app/login)**
 ## E-mail: teste@gmail.com
