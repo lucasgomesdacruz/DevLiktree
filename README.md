@@ -1,5 +1,6 @@
 # Projeto Linktree com React
-![image](https://github.com/lucasgomesdacruz/DevLinktree/assets/112510742/a5da634d-4472-4b62-b2ef-e53c71ddce9e)
+![image](https://github.com/lucasgomesdacruz/DevLinktree/assets/112510742/8014b80d-1eb7-4de1-b10a-0fb010f76545)
+
 
 
 
