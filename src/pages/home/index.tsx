@@ -11,6 +11,7 @@ import {
     doc,
     getDoc
 } from "firebase/firestore"
+import { Link } from 'react-router-dom'
 
 interface LinkProps {
     id: string;
@@ -75,7 +76,7 @@ export function Home() {
 
     return(
         <div className="flex flex-col w-full py-4 items-center justify-center">
-            <h1 className="md:text-4xl text-3xl font-bold text-white mt-20">Lucas Gomes</h1>
+            <h1 className="md:text-4xl text-3xl font-bold text-white mt-20">Linktree</h1>
             <span className="text-gray-50 mb-5 mt-3">Veja meus links 👇</span>
 
             <main className="flex flex-col w-11/12 max-w-xl text-center">
@@ -91,6 +92,13 @@ export function Home() {
                         </a>
                     </section>
                 ))}
+                <section>
+                    <div>
+                        <Link className='bg-slate-500 text-white font-bold py-1 px-4 rounded-md' to="./login">
+                            Login
+                        </Link>
+                    </div>
+                </section>
 
                { socialLinks && Object.keys(socialLinks).length > 0 && (
                      <footer className="flex justify-center gap-3 my-4">
