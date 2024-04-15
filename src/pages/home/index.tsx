@@ -75,7 +75,7 @@ export function Home() {
     }, [])
 
     return(
-        <div className="flex flex-col w-full py-4 items-center justify-center">
+        <div className="w-full flex items-center justify-center flex-col py-4">
             <h1 className="md:text-4xl text-3xl font-bold text-white mt-20">Linktree</h1>
             <span className="text-gray-50 mb-5 mt-3">Veja meus links 👇</span>
 
@@ -92,9 +92,9 @@ export function Home() {
                         </a>
                     </section>
                 ))}
-                <section>
-                    <div>
-                        <Link className='bg-slate-500 text-white font-bold py-1 px-4 rounded-md' to="./login">
+                <section className='flex justify-center items-center w-full'>
+                    <div className='bg-white mb-4 w-full py-2 font-bold rounded-xl select-none transition-transform hover:scale-105 cursor-pointer'>
+                        <Link to="./login">
                             Login
                         </Link>
                     </div>
